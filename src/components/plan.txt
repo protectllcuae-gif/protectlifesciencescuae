@@ -1,0 +1,219 @@
+STEP 1:
+Create a modern premium pharmaceutical export website for “Protect Life Sciences Pvt Ltd” using React.js + Vite, Tailwind CSS, Framer Motion, React Router DOM, and Swiper.js.
+
+STEP 2:
+Use a fresh light premium color palette:
+
+* Ivory white
+* Warm cream
+* Soft sage green
+* Mint green
+* Light emerald accents
+* Soft champagne gold
+* Pearl white backgrounds
+
+Avoid dark blue hospital themes and heavy black luxury themes.
+
+STEP 3:
+Design the website to feel:
+
+* Fresh
+* Modern
+* International
+* Premium
+* Wellness-focused
+* Export-oriented
+* Trustworthy
+
+STEP 4:
+Create a sticky transparent navbar with blur effect and smooth hover animations.
+
+Navbar items:
+
+* Home
+* About
+* Products
+* Third-Party Manufacturing
+* Exports
+* Quality
+* Blog
+* Contact
+
+STEP 5:
+Build a full-screen hero section with:
+
+* Soft Dubai skyline background
+* Bright sunlight glow effects
+* Floating gummies visuals
+* Injection product visuals
+* Animated country flags
+* Smooth Framer Motion animations
+
+Headline:
+“Protecting Lives Through Quality Pharmaceuticals”
+
+Subheadline:
+“Global pharmaceutical exports, sterile injections, gummies, and third-party manufacturing solutions.”
+
+Buttons:
+
+* Explore Products
+* Export Inquiry
+* WhatsApp Us
+
+STEP 6:
+Add elegant section spacing and airy modern layouts with glassmorphism cards and soft shadows.
+
+STEP 7:
+Create an animated “Global Export Reach” section with:
+
+* Soft world map
+* Export route animations
+* Floating country flags
+* Animated statistics counters
+
+Countries:
+
+* India
+* Nepal
+* UAE
+* UK
+* Somalia
+* Namibia
+* Angola
+* Senegal
+* South Sudan
+* Chad
+
+STEP 8:
+Create a premium About Us section with:
+
+* Company story
+* Mission
+* Vision
+* Manufacturing excellence
+* Export focus
+* WHO-GMP commitment
+
+Use clean laboratory and pharmaceutical visuals.
+
+STEP 9:
+Add the following Mission content:
+
+* Deliver innovative pharmaceutical solutions
+* Manufacture products with highest industry standards
+* Support global healthcare
+* Maintain commitment to research, quality, and safety
+
+STEP 10:
+Add the following Vision content:
+“To become a global leader in pharmaceuticals by pioneering innovations in life sciences while maintaining an unwavering commitment to human health and safety.”
+
+STEP 11:
+Create a premium Products page with category tabs:
+
+* Antibiotic Injections
+* Critical Care Injections
+* Sterile Injectable Range
+* Gummies
+* Wellness Supplements
+* Export Products
+
+STEP 12:
+Focus heavily on Gummies and Injections.
+
+For Gummies:
+
+* Use vibrant wellness product visuals
+* Soft gradients
+* Premium supplement-style UI
+* Floating product cards
+
+For Injections:
+
+* Clean sterile visuals
+* White and soft green aesthetics
+* Professional medical branding
+
+STEP 13:
+Create a responsive masonry product gallery with:
+
+* Product hover animations
+* Product popup modal
+* Smooth image transitions
+* Glassmorphism product cards
+* Swiper sliders
+
+STEP 14:
+Create a dedicated Third-Party Manufacturing page with:
+
+* Manufacturing process timeline
+* WHO-GMP facility showcase
+* Packaging solutions
+* Bulk manufacturing services
+* Partnership CTA section
+
+CTA text:
+“Partner With Us”
+
+STEP 15:
+Create a premium Quality & Certifications section with:
+
+* WHO-GMP standards
+* Quality assurance
+* Sterile manufacturing process
+* Testing & compliance visuals
+* Modern certification cards
+
+STEP 16:
+Create a modern Blog section with premium blog cards and topics related to:
+
+* Pharmaceutical exports
+* Injectable manufacturing
+* Healthcare innovation
+* Gummies and wellness products
+
+STEP 17:
+Create a Contact page with:
+
+* Glassmorphism contact cards
+* Elegant inquiry form
+* Embedded map section
+* Sticky WhatsApp floating button
+
+Contact Details:
+
+* Mobile: 9168304010 / 7385060011
+* Phone: 02047259143
+* Email: [sales@protectlifesciences.com](mailto:sales@protectlifesciences.com)
+
+STEP 18:
+When the user clicks “Send Inquiry”, redirect directly to WhatsApp with a pre-filled message.
+
+Example:
+https://wa.me/919168304010?text=Hello%20Protect%20Life%20Sciences,%20I%20want%20to%20know%20more%20about%20your%20products.
+
+No backend required.
+No CMS required.
+
+STEP 19:
+Add premium animations throughout the website:
+
+* Smooth scroll animations
+* Floating product animations
+* Fade-in sections
+* Hover lift effects
+* Elegant transitions
+* Soft glowing effects
+* Premium loading screen
+
+STEP 20:
+Optimize the entire website for:
+
+* Mobile responsiveness
+* Fast loading
+* SEO-friendly structure
+* Modern UI/UX
+* Professional export-business branding
+
+The final website should feel like a premium international pharmaceutical export and wellness company with a fresh modern healthcare aesthetic.

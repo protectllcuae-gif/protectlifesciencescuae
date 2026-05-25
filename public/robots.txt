@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://protectlifesciences.in/sitemap.xml
+Host: https://protectlifesciences.in
