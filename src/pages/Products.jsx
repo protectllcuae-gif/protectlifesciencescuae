@@ -32,19 +32,105 @@ const productsData = [
   { id: 6, name: "Sterile Water for Injection", category: "Sterile Injectable Range", image: "/sterile-injections.png", type: "injection", packSize: "10ml / 20ml Ampoules", spec: "USP Grade", description: "Sterile, nonpyrogenic, solute-free preparation of distilled water for injection. Used only as a sterile solvent for reconstitution." },
 
   // Gummies
-  { id: 7, name: "Vitamin C Gummies", category: "Gummies", image: "/kids_multivitamin.jpg", type: "gummy", flavor: "Orange", packSize: "60 Gummies Bottle", spec: "FDA / GMP Compliant", description: "Premium Vitamin C gummies formulated to boost daily immunity. Made with organic pectin and natural orange extract." },
-  { id: 8, name: "Multivitamin Gummies", category: "Gummies", image: "/adult%20multivitamin.jpg", type: "gummy", flavor: "Mixed Berry", packSize: "60 Gummies Bottle", spec: "GMP Certified", description: "A balanced blend of 12 essential vitamins and minerals supporting daily vitality, immune system health, and overall wellness." },
-  { id: 9, name: "Sleep Support Gummies", category: "Gummies", image: "/melatonin.jpg", type: "gummy", flavor: "Strawberry-Lavender", packSize: "30 Gummies Bottle", spec: "Nutraceutical Grade", description: "Formulated with Melatonin, L-Theanine, and Chamomile extract to promote a peaceful night's rest and regulate sleep cycles." },
-  { id: 10, name: "Apple Cider Vinegar Gummies", category: "Gummies", image: "/collagen.jpg", type: "gummy", flavor: "Apple", packSize: "60 Gummies Bottle", spec: "Pectin Based", description: "All the benefits of apple cider vinegar with mother, compressed into delicious, easy-to-consume pectin-based wellness gummies." },
+  { id: 7, name: "Multivitamin Gummies", category: "Gummies", image: "/adult%20multivitamin.jpg", type: "gummy", flavor: "Mixed Berry", packSize: "60 Gummies Bottle", spec: "GMP Certified", description: "A balanced blend of 12 essential vitamins and minerals supporting daily vitality, immune system health, and overall wellness." },
+  { id: 8, name: "Sleep Support Gummies", category: "Gummies", image: "/melatonin.jpg", type: "gummy", flavor: "Strawberry-Lavender", packSize: "30 Gummies Bottle", spec: "Nutraceutical Grade", description: "Formulated with Melatonin, L-Theanine, and Chamomile extract to promote a peaceful night's rest and regulate sleep cycles." },
+{
+  id: 11,
+  name: "Omega Gummies",
+  category: "Gummies",
+  image: "/omega.jpeg",
+  type: "gummy",
+  flavor: "Coffee",
+  packSize: "30 Gummies Bottle",
+  spec: "Brain & Memory Support",
+  description:
+    "Premium Omega gummies formulated to support brain function, memory enhancement, and eye health with a delicious coffee flavor."
+},
 
+{
+  id: 12,
+  name: "Magnesium Gummies",
+  category: "Gummies",
+  image: "/magnesium.jpeg",
+  type: "gummy",
+  flavor: "Mixed Berry",
+  packSize: "30 Gummies Bottle",
+  spec: "Muscle & Nerve Support",
+  description:
+    "Advanced magnesium gummies designed to support muscle recovery, nerve function, relaxation, and overall body wellness."
+},
+
+{
+  id: 13,
+  name: "Glutathione Gummies",
+  category: "Gummies",
+  image: "/glutathione.jpeg",
+  type: "gummy",
+  flavor: "Blueberry",
+  packSize: "30 Gummies Bottle",
+  spec: "Skin Radiance Formula",
+  description:
+    "Powerful antioxidant gummies enriched with Glutathione to support skin radiance, detoxification, and healthy glowing skin."
+},
+
+{
+  id: 14,
+  name: "Garcinia Cambogia Gummies",
+  category: "Gummies",
+  image: "/carcinia.jpeg",
+  type: "gummy",
+  flavor: "Strawberry",
+  packSize: "30 Gummies Bottle",
+  spec: "Weight Management Support",
+  description:
+    "Specially formulated Garcinia Cambogia gummies that help support metabolism, appetite management, and healthy weight goals."
+},
+
+{
+  id: 15,
+  name: "Apple Cider Vinegar Gummies",
+  category: "Gummies",
+  image: "/apple-cider.jpeg",
+  type: "gummy",
+  flavor: "Apple",
+  packSize: "30 Gummies Bottle",
+  spec: "Digestive Wellness",
+  description:
+    "Delicious apple cider vinegar gummies designed to support digestion, metabolism, gut health, and daily wellness naturally."
+},
+
+{
+  id: 16,
+  name: "Shilajit Stamina Gummies",
+  category: "Gummies",
+  image: "/shilajit.jpeg",
+  type: "gummy",
+  flavor: "Dark Chocolate",
+  packSize: "30 Gummies Bottle",
+  spec: "Strength & Vitality",
+  description:
+    "Premium Shilajit gummies crafted to support stamina, strength, energy levels, and overall vitality for active lifestyles."
+},
+
+{
+  id: 17,
+  name: "Vitamin C Gummies",
+  category: "Gummies",
+  image: "/vitamin-c.jpeg",
+  type: "gummy",
+  flavor: "Orange",
+  packSize: "30 Gummies Bottle",
+  spec: "Immunity & Antioxidant Support",
+  description:
+    "Vitamin C gummies enriched with antioxidant properties to help strengthen immunity, support skin health, and daily wellness."
+},
   // Wellness Supplements
-  { id: 11, name: "Premium Omega-3 Softgels", category: "Wellness Supplements", image: "/gummies.png", type: "gummy", packSize: "60 Softgels", spec: "Fish Oil Concentrate", description: "High-potency EPA & DHA formula supporting cardiovascular, brain, joint, and eye wellness." },
-
+ 
   // Export Products
-  { id: 12, name: "Beta-Lactam Dry Powder", category: "Export Products", image: "/sterile-injections.png", type: "injection", packSize: "Bulk Exporters Pack", spec: "WHO-GMP Verified", description: "Premium bulk antibiotics prepared and packaged specifically to maintain maximum shelf life during international shipping." }
+  { id: 18, name: "Beta-Lactam Dry Powder", category: "Export Products", image: "/sterile-injections.png", type: "injection", packSize: "Bulk Exporters Pack", spec: "WHO-GMP Verified", description: "Premium bulk antibiotics prepared and packaged specifically to maintain maximum shelf life during international shipping." }
 ];
 
-const featuredProducts = productsData.filter(p => p.id === 1 || p.id === 2 || p.id === 7 || p.id === 8 || p.id === 9);
+const featuredProducts = productsData.filter(p => [1, 2, 7, 8, 11, 13, 16].includes(p.id));
 
 const Products = () => {
   const [activeCategory, setActiveCategory] = useState("All");

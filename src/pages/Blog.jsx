@@ -8,8 +8,8 @@ const blogPosts = [
     id: 1,
     title: "The Future of Pharmaceutical Exports: Navigating Global Regulations",
     category: "Pharmaceutical Exports",
-    date: "Oct 15, 2023",
-    author: "Dr. Ananya Sharma",
+    // date: "Oct 15, 2023",
+    // author: "Dr. Ananya Sharma",
     image: "/world-map.png",
     excerpt: "Exploring the complexities of international trade in pharmaceuticals and how companies can ensure compliance with evolving global standards."
   },
@@ -17,26 +17,26 @@ const blogPosts = [
     id: 2,
     title: "Innovations in Sterile Injectable Manufacturing",
     category: "Injectable Manufacturing",
-    date: "Sep 28, 2023",
-    author: "Rajeev Menon",
+    // date: "Sep 28, 2023",
+    // author: "Rajeev Menon",
     image: "/sterile-injections.png",
     excerpt: "A deep dive into the latest technologies and cleanroom standards driving the future of sterile injectable production."
   },
-  {
-    id: 3,
-    title: "The Rise of Wellness Gummies: A Market Analysis",
-    category: "Gummies & Wellness Trends",
-    date: "Sep 12, 2023",
-    author: "Priya Desai",
-    image: "/gummies.png",
-    excerpt: "Why vitamin and supplement gummies are dominating the wellness market and what consumers are looking for."
-  },
+  // {
+  //   id: 3,
+  //   title: "The Rise of Wellness Gummies: A Market Analysis",
+  //   category: "Gummies & Wellness Trends",
+  //   date: "Sep 12, 2023",
+  //   author: "Priya Desai",
+  //   image: "/gummies.png",
+  //   excerpt: "Why vitamin and supplement gummies are dominating the wellness market and what consumers are looking for."
+  // },
   {
     id: 4,
     title: "Ensuring Quality in Third-Party Pharmaceutical Manufacturing",
     category: "Global Healthcare",
-    date: "Aug 30, 2023",
-    author: "Dr. Vikram Patel",
+    // date: "Aug 30, 2023",
+    // author: "Dr. Vikram Patel",
     image: "/laboratory.png",
     excerpt: "Key considerations and quality assurance protocols when partnering with a contract manufacturer for your pharma brand."
   },
@@ -44,8 +44,8 @@ const blogPosts = [
     id: 5,
     title: "Advancing Global Healthcare Through Accessible Antibiotics",
     category: "Healthcare Innovation",
-    date: "Aug 15, 2023",
-    author: "Elena Rodriguez",
+    // date: "Aug 15, 2023",
+    // author: "Elena Rodriguez",
     image: "/sterile-injections.png",
     excerpt: "How bulk manufacturing and efficient export chains are helping address the global demand for essential antibiotics."
   },
@@ -53,8 +53,8 @@ const blogPosts = [
     id: 6,
     title: "Building a State-of-the-Art WHO-GMP Facility",
     category: "Injectable Manufacturing",
-    date: "Jul 22, 2023",
-    author: "Rajeev Menon",
+    // date: "Jul 22, 2023",
+    // author: "Rajeev Menon",
     image: "/manufacturing.png",
     excerpt: "An inside look at the architectural and operational requirements for establishing a globally certified pharmaceutical plant."
   }
