@@ -263,7 +263,7 @@ const Contact = () => {
     ) : (
       <div className="h-[400px]">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!..."
+          src="https://maps.google.com/maps?q=1411%20Rami%20garden%20Al%20falah%20street%20Airport%20road%20Abu%20Dhabi&t=&z=15&ie=UTF8&iwloc=&output=embed"
           width="100%"
           height="100%"
           style={{
