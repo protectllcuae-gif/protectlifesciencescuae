@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { Mail, MapPin, Smartphone, Send } from 'lucide-react';
 import Seo from '../components/Seo';
@@ -11,6 +11,23 @@ const Contact = () => {
     product: '',
     message: ''
   });
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const query = '(max-width: 768px)';
+    const mediaQuery = window.matchMedia(query);
+    const updateIsMobile = (event) => setIsMobile(event.matches);
+
+    updateIsMobile(mediaQuery);
+
+    if (mediaQuery.addEventListener) {
+      mediaQuery.addEventListener('change', updateIsMobile);
+      return () => mediaQuery.removeEventListener('change', updateIsMobile);
+    }
+
+    mediaQuery.addListener(updateIsMobile);
+    return () => mediaQuery.removeListener(updateIsMobile);
+  }, []);
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -205,23 +222,63 @@ const Contact = () => {
         </div>
 
         {/* Embedded Map */}
-        <motion.div 
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          className="mt-16 rounded-2xl overflow-hidden glass-card border border-brand-sage/20 h-[380px] shadow-sm bg-white"
+        <motion.div
+  initial={{ opacity: 0, y: 30 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  viewport={{ once: true }}
+  className="mt-16"
+>
+  <div className="glass-card border border-brand-sage/20 rounded-2xl overflow-hidden bg-white shadow-sm">
+
+    <div className="p-6 border-b border-brand-sage/10">
+      <h3 className="text-2xl font-bold text-brand-charcoal">
+        Our Location
+      </h3>
+      <p className="text-brand-charcoal/60 mt-2">
+        Visit our office in Abu Dhabi, UAE.
+      </p>
+    </div>
+
+    {isMobile ? (
+      <div className="p-8 text-center">
+        <MapPin
+          size={48}
+          className="mx-auto text-brand-emerald mb-4"
+        />
+
+        <p className="text-brand-charcoal mb-6">
+          Open our office location directly in Google Maps.
+        </p>
+
+        <a
+          href="https://maps.google.com/?q=1411+Rami+Garden+Al+Falah+Street+Airport+Road+Abu+Dhabi+UAE"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 bg-brand-emerald text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition"
         >
-          <iframe 
-            src="https://maps.google.com/maps?q=1411%20Rami%20Garden%20Al%20Falah%20Street%20Airport%20Road%20Abu%20Dhabi%20UAE&t=&z=15&ie=UTF8&iwloc=&output=embed" 
-            width="100%" 
-            height="100%" 
-            style={{ border: 0, filter: "grayscale(0.3) contrast(0.95)" }} 
-            allowFullScreen
-            loading="lazy" 
-            referrerPolicy="no-referrer-when-downgrade"
-            title="Office Headquarters Location Map"
-          ></iframe>
-        </motion.div>
+          <MapPin size={18} />
+          Open in Google Maps
+        </a>
+      </div>
+    ) : (
+      <div className="h-[400px]">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!..."
+          width="100%"
+          height="100%"
+          style={{
+            border: 0,
+            filter: "grayscale(0.2)"
+          }}
+          allowFullScreen
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+          title="Protect Life Sciences UAE Location"
+        />
+      </div>
+    )}
+  </div>
+</motion.div>
 
       </div>
     </div>
